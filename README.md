@@ -1,25 +1,43 @@
 # Digital-Signal-Processing
 
-1) Реализация вычисления отношения сигнал-шум;
 
-2) Построение спектрограммы сигнала (изменение спектра частот во времени) в виде изображения с использованием окна Хеннинга;
+## About The Project
 
-3) Фильтрация сигнала;
-
-        - Реализация фильтра, котрорый пропускает только указанную частоту в сигнале, 
-        - Фильтр представлен в виде соединения FIR и  IIR фильтров,
-        - Фильтр применяется таким образом, чтобы минимизировать фазовый сдвиг, 
-        - Построены графики передаточной функции FIR, IIR и итогового фильтра, спектрограммы и графики сигнала до и после фильтрации.
+The following algorithms were implemented:
 
 
+### Assignment 1
 
-4) Осуществление сдвига спектра сигнала на указанную частоту;
+Calculation of the signal-to-noise ratio;
 
-        - Использование гребенки фильтров для избежания наложения сдвинутых копий спектра сигнала,
-        - Гребенка представляет собой набор полосовых фильтров + ФНЧ (для крайней левой полосы) + ФВЧ (для крайней правой полосы).
 
-5) Осуществление демодуляции сигнала с использованием аналитического сигнала.
+### Assignment 2
 
-        - В сигнале передается битовая последовательность, которую необходимо извлечь,
-        - С использованием аналитического сигнала строится последовательность мгновенных частот сигнала,
-        - На основе полученной последовательности извлекаются передаваемые биты.
+Visualization of spectrogram of a signal (changing the frequency spectrum over time) in the form of an image using the Hanning window;
+
+
+### Assignment 3
+
+Signal filtering:
+
+         - Implementation of a filter that passes only the specified frequency in the signal,
+         - The filter is presented as a combination of FIR and IIR filters,
+         - The filter is applied in such a way as to minimize the phase shift,
+         - Graphs of the transfer function FIR, IIR and the final filter, spectrograms and graphs of the signal before and after filtering are built.
+
+
+### Assignment 4
+
+Shifting the signal spectrum to the specified frequency;
+
+         - Using a filter bank to avoid aliasing of shifted copies of the signal spectrum,
+         - The comb is a set of bandpass filters + LPF (for the leftmost band) + HPF (for the rightmost band).
+
+
+### Assignment 5
+
+Implementation of signal demodulation using an analytical signal.
+
+         - The signal contains a bit sequence that needs to be extracted,
+         - Using an analytical signal, a sequence of instantaneous signal frequencies is constructed,
+         - Based on the received sequence, the transmitted bits are extracted.
