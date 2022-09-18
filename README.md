@@ -41,3 +41,17 @@ Implementation of signal demodulation using an analytical signal.
          - The signal contains a bit sequence that needs to be extracted,
          - Using an analytical signal, a sequence of instantaneous signal frequencies is constructed,
          - Based on the received sequence, the transmitted bits are extracted.
+
+
+## Getting Started
+
+Implementation for each of assignments are in assignment-x directory;
+
+Parameters of algorithms can be changed in:
+
+        assignment-x/config.py
+        
+File to run:
+
+         assignment-x/main.py
+ 
