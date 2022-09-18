@@ -23,7 +23,7 @@ Signal filtering:
          - Implementation of a filter that passes only the specified frequency in the signal,
          - The filter is presented as a combination of FIR and IIR filters,
          - The filter is applied in such a way as to minimize the phase shift,
-         - Graphs of the transfer function FIR, IIR and the final filter, spectrograms and graphs of the signal before and after filtering are built.
+         - Visualization of the transfer function FIR, IIR and the final filter, spectrograms and graphs of the signal before and after filtering are built.
 
 
 ### Assignment 4
